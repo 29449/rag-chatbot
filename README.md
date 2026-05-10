@@ -66,12 +66,16 @@
 **📂 项目结构**
 
 rag-chatbot/
-│
-├── app.py                 # Streamlit 主程序
-├── requirements.txt       # 项目依赖
-├── README.md              # 项目说明
-├── chroma_db/             # 向量数据库（本地持久化）
-└── sample.pdf             # 测试文件（可选）
+
+app.py                 # Streamlit 主程序
+
+requirements.txt       # 项目依赖
+
+README.md              # 项目说明
+
+chroma_db/             # 向量数据库（本地持久化）
+
+sample.pdf             # 测试文件（可选）
 
 **⚡ 本地运行**
 
