@@ -1,0 +1,9 @@
+streamlit
+zhipuai
+langchain
+langchain-community
+sentence-transformers
+chromadb
+pypdf
+FlagEmbedding
+torch
