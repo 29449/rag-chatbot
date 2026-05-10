@@ -15,44 +15,32 @@
 
 **🧠 项目架构**
 
-用户问题
-   ↓
-Query Rewrite（问题改写）
-   ↓
-Embedding 向量化
-   ↓
-Chroma 向量数据库检索
-   ↓
-Rerank 重排序
-   ↓
-拼接上下文 Prompt
-   ↓
-LLM 生成最终答案
+用户问题 -> Query Rewrite（问题改写） -> Embedding 向量化 -> Chroma 向量数据库检索 -> Rerank 重排序 -> 拼接上下文 Prompt -> LLM 生成最终答案
 
 **🛠️ 技术栈**
 
-LLM
+1、LLM
 * GLM-4.5-Flash
 * 智谱 AI API
 
-RAG Framework
+2、RAG Framework
 * LangChain
 
-Vector Database
+3、Vector Database
 * Chroma
 * FAISS（实验版本）
 
-Embedding Model
+4、Embedding Model
 * BAAI/bge-m3
 * BAAI/bge-small-zh-v1.5
 
-Rerank
+5、Rerank
 * BAAI/bge-reranker-base
 
-Frontend
+6、Frontend
 * Streamlit
 
-Document Loader
+7、Document Loader
 * PyPDFLoader
 
 **✨ 核心功能**
@@ -99,8 +87,7 @@ source rag/bin/activate
 pip install -r requirements.txt
 
 4️⃣ 配置 API KEY
-推荐使用环境变量：
-export ZHIPU_API_KEY="你的API_KEY"
+推荐使用环境变量：export ZHIPU_API_KEY="你的API_KEY"
 
 5️⃣ 启动项目
 streamlit run app.py
