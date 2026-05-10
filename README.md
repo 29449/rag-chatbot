@@ -1,7 +1,9 @@
 **📚 RAG PDF Chatbot**
+
 一个基于大语言模型（LLM）的本地知识库问答系统，支持 PDF 上传、多轮对话、语义检索与 RAG（Retrieval-Augmented Generation）问答。
 
 **🚀 项目效果**
+
 用户可以：
 
 1、上传 PDF 文档
@@ -12,6 +14,7 @@
 6、使用 Rerank 提升检索精度
 
 **🧠 项目架构**
+
 用户问题
    ↓
 Query Rewrite（问题改写）
@@ -52,6 +55,7 @@ Document Loader
 * PyPDFLoader
 
 **✨ 核心功能**
+
 ✅ PDF 上传
 支持上传论文、技术文档等 PDF 文件。
 
@@ -71,6 +75,7 @@ Document Loader
 通过 LLM 自动改写用户问题，提高检索召回率。
 
 **📂 项目结构**
+
 rag-chatbot/
 │
 ├── app.py                 # Streamlit 主程序
@@ -80,6 +85,7 @@ rag-chatbot/
 └── sample.pdf             # 测试文件（可选）
 
 **⚡ 本地运行**
+
 1️⃣ 克隆项目
 git clone https://github.com/29449/rag-chatbot.git
 cd rag-chatbot
@@ -99,6 +105,7 @@ export ZHIPU_API_KEY="你的API_KEY"
 streamlit run app.py
 
 **🎯 项目亮点**
+
 * 从零实现完整 RAG Pipeline
 * 支持本地知识库问答
 * 实现 Query Rewrite + Rerank
@@ -108,6 +115,7 @@ streamlit run app.py
 * 完成 Web 化部署
 
 **📈 后续优化方向**
+
 * Hybrid Search（BM25 + Vector Search）
 * Agent 工作流
 * 多文件知识库
@@ -117,6 +125,7 @@ streamlit run app.py
 * 云端部署
 
 **💬 项目背景**
+
 该项目用于学习与实践 LLM 应用开发、RAG 架构以及 AI 工程化能力。
 
 通过本项目，完成了：
@@ -129,6 +138,7 @@ streamlit run app.py
 * Git/GitHub 工程管理
 
 **👨‍💻 Author**
+
 浙江工业大学 ｜ AI方向研究生
 
 如果这个项目对你有帮助，欢迎 Star ⭐
